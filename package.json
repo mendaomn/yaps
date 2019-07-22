@@ -1,0 +1,15 @@
+{
+  "name": "yaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./__tests__/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
