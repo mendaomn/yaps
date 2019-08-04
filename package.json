@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Coding the simplest PubSub in the world",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "lint": "eslint src",
     "lint:types": "tsc -p ./jsconfig.json",
