@@ -14,6 +14,11 @@
     "test:coverage": "jest --coverage",
     "validate": "npm-run-all --parallel lint lint:types test:coverage"
   },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run validate"
+    }
+  },
   "keywords": [],
   "author": "Alessandro Menduni <menduni@westwingsolutions.com> (https://github.com/mendaomn)",
   "license": "MIT",
