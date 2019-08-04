@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules",
+    "**/__tests__",
+    "coverage",
+    "./*.js"
+  ]
+}
